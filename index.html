@@ -223,24 +223,45 @@ analysis and allele frequency distribution to identify significant genetic patte
       <h1 class="title">Projects</h1>
       <div style="display: flex; flex-direction: column; gap: 2rem;">
 
-        <!-- Project 1: Mixture of Experts Model -->
+        <!-- Project 1: LoRA -->
         <div style="display: flex; align-items: center; gap: 2rem; background: #f9f9f9; padding: 1.5rem; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
           <img src="assets/moe.png" alt="Project Image" style="width: 200px; height: auto; border-radius: 10px;">
           <div>
-            <h3 style="font-size: 1.5rem; color: #333;">Enhancing Text Coherence with Mixture of Experts Model</h3>
+            <h3 style="font-size: 1.5rem; color: #333;">Utilize Large Language Models to Analyze Radiology Report</h3>
             <li style="font-size: 1rem; color: #555;">
-              Achieved a 13% increase in accuracy and a 19% improvement in F1 score by developing a custom Mixture of Experts model using Mixtral, outperforming BERT's baseline performance in next sentence prediction task, with dataset sourced from Hugging Face.
+              Fine-tuned state-of-the-art instruction-tuned models: Qwen2.5 and Gemma on 47,667 clinical noted from radiology reports for a
+multi-class, multi-label classification task, achieving an F1 micro score of 0.9200 with Qwen2.5.
             </li>
             <li style="font-size: 1rem; color: #555;">
-              Enhanced model interpretability by implementing gating networks and expert specialization within MoE framework, which
-demonstrated 10% faster convergence and superior text coherence compared to traditional models.
+              Optimized model training using LoRA for low-rank adaptation and WandB for efficient training progress tracking, identifying
+optimal checkpoints for performance across diverse datasets.
+
             </li>
             <div style="margin-top: 1rem;">
-              <a href="https://github.com/aaryabagde" class="btn" style="background-color: black; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none;">Github</a>
-              <a href="https://drive.google.com/file/d/1RHsyGZT35YWOZgU6-cLbyR9vNAqdgQWF/view" class="btn" style="background-color: black; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; margin-left: 10px;">Manuscript</a>
+              <a href="https://shorturl.at/I67gr" class="btn" style="background-color: black; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; margin-left: 10px;">Manuscript</a>
             </div>
           </div>
         </div>
+
+        <!-- Project 2: RAGS -->
+        <div style="display: flex; align-items: center; gap: 2rem; background: #f9f9f9; padding: 1.5rem; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+          <img src="assets/moe.png" alt="Project Image" style="width: 200px; height: auto; border-radius: 10px;">
+          <div>
+            <h3 style="font-size: 1.5rem; color: #333;">Dynamic Query Resolution of NYU Admission Requirements Using RAG</h3>
+            <li style="font-size: 1rem; color: #555;">
+              Developed a Retrieval-Augmented Generation (RAG) system using Llama 3.1 to extract and summarize NYU admission
+requirements, integrating semantic search and document retrieval for accurate query resolution
+            </li>
+            <li style="font-size: 1rem; color: #555;">
+              Improved hit rate by 10% in RAG by implementing hybrid search (BM25 + dense embeddings), resulting in a significant
+increase in the accuracy of relevant document retrieval.
+
+            </li>
+            <div style="margin-top: 1rem;">
+            </div>
+          </div>
+        </div>
+        
     
         <!-- Project 2: Stock Movement Prediction -->
         <div style="display: flex; align-items: center; gap: 2rem; background: #f9f9f9; padding: 1.5rem; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
